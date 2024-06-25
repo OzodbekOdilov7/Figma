@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    gap: 68px;
+    justify-content: center;
+    margin-top: 148px;
+    font-family: @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+}
+
+.navbar__icons {
+    background-color: black;
+    border-radius: 106px;
+    gap: 47px;
+    padding: 5px;
+    display: flex;
+}
+
+.main__boxes{
+    display: flex;
+    margin-top: 116px;
+}
+.onebox{
+    background-color: #18181b;
+    width: 1174px;
+    height: 650px;
+}
+.twobox{
+   display: flex;
+   flex-direction: column;
+   gap: 48px;
+}
+.btn{
+    border: none;
+    background-color: #6b21a8;
+    color: #fafafa;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.box__img{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+}
